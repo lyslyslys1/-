@@ -1,0 +1,18 @@
+<!--pages/Online_testing/Online testing.wxml-->
+<view>
+  <view>
+    <image class="w pic1" src="https://pic2.imgdb.cn/item/644b8ab60d2dde5777224884.png" mode=""/>
+  </view>
+  <view class="row jc">
+    <image class="lesspic" src="https://pic2.imgdb.cn/item/644b8a970d2dde5777222a86.png" mode=""/>
+    <image class="lesspic" style="margin-top: 6rpx;" src="https://pic2.imgdb.cn/item/644b8a970d2dde5777222add.png" mode=""/>
+  </view>
+  <view class="row jc">
+    <image class="lesspic" src="https://pic2.imgdb.cn/item/644b8a970d2dde5777222a66.png" mode=""/>
+    <image class="lesspic" src="https://pic2.imgdb.cn/item/644b8a9f0d2dde5777223243.png" mode=""/>
+  </view>
+  <view class="row jc">
+    <image class="lesspic" src="https://pic2.imgdb.cn/item/644b8a970d2dde5777222a28.png" mode=""/>
+    <image class="lesspic" style="margin-top: 10rpx;" src="https://pic2.imgdb.cn/item/644b8a9c0d2dde5777222f5f.png" mode=""/>
+  </view>
+</view>

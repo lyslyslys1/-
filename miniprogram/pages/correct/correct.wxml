@@ -1,0 +1,22 @@
+<!--pages/correct/correct.wxml-->
+<view>
+  <view>
+    <view style="margin-top: 50rpx;">
+    </view>
+      <view class="cen">
+        <navigator url="/pages/Language_training/Language_training">
+          <image class="imageall" src="https://pic2.imgdb.cn/item/64579ea60d2dde57777b1bb8.png" mode=""/>
+        </navigator>
+      </view>
+  </view>
+  <view class="cen">
+    <navigator url="/pages/Language_testing/Language_testing">
+      <image class="imageall" src="https://pic2.imgdb.cn/item/64579ea80d2dde57777b1de6.png" mode=""/>
+    </navigator>
+  </view>
+  <view class="cen">
+    <navigator url="/pages/Be_on_the_spot/Be_on_the_spot">
+      <image class="imageall" src="https://pic2.imgdb.cn/item/64579eaa0d2dde57777b1f8d.png" mode=""/>
+    </navigator>
+  </view>
+</view>

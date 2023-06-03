@@ -1,0 +1,12 @@
+/* pages/correct/correct.wxss */
+.imageall{
+  height: 90px;
+  width: 270px;
+  margin-top : 5px;
+  
+}
+.cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

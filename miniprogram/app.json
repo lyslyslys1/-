@@ -1,14 +1,64 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/correct/correct",
+    "pages/consult/consult",
+    "pages/my/my",
+    "pages/Detection_evaluation/Detection_evaluation",
+    "pages/game_overcome/game_overcome",
+    "pages/Online_testing/Online testing",
+    "pages/Tree_planting_plan/Tree_planting_plan",
+    "pages/phonologicalknowledge/phonologicalknowledge",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/about/about",
+    "pages/weixin_link/weixin_link",
+    "pages/weixin_link1/weixin_link1",
+    "pages/Language_training/Language_training",
+    "pages/Language_testing/Language_testing",
+    "pages/Be_on_the_spot/Be_on_the_spot",
+    "pages/Breathing_training/Breathing_training",
+    "pages/Oral_muscle_training/Oral_muscle_training",
+    "pages/homehealthcare/homehealthcare",
+    "pages/correctivepartner/correctivepartner"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff9400",
+    "navigationBarTitleText": "儿童趣味化听读联动构音矫治平台",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/shouye.png",
+        "selectedIconPath": "icon/shouyetianchong.png"
+      },
+      {
+        "pagePath": "pages/correct/correct",
+        "text": "矫治",
+        "iconPath": "icon/xiai.png",
+        "selectedIconPath": "icon/xiaitianchong.png"
+      },
+      {
+        "pagePath": "pages/consult/consult",
+        "text": "咨询",
+        "iconPath": "icon/duihuaxinxi.png",
+        "selectedIconPath": "icon/duihuaxinxitianchong.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "icon/yonghu.png",
+        "selectedIconPath": "icon/yonghutianchong.png"
+      }
+    ],
+    "color": "#999",
+    "selectedColor": "#ff9400"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }

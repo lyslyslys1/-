@@ -1,0 +1,38 @@
+/* pages/Language_training/Language_training.wxss */
+.lessword{
+  height: 100rpx;
+  width: 400rpx;
+}
+.lessimage{
+  height: 105rpx;
+  width: 105rpx;
+  margin: 20rpx 20rpx;
+  }
+.hen{
+  display: flex;
+  flex-direction: row;
+}
+.shu{
+  display: flex;
+  flex-direction: column;
+}
+.sa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+.flex1{
+  display: flex;
+  flex: 1;
+}
+.flex2{
+  display: flex;
+  flex: 2;
+}
+.sf{
+  display: flex;
+  justify-content: flex-start;
+}
+.rm{
+  margin-right: 120rpx;
+} 

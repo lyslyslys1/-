@@ -1,0 +1,26 @@
+<!--pages/correctivepartner/correctivepartner.wxml-->
+  <SearchInput></SearchInput>
+<swiper autoplay interval="1000" circular indicator-dots>
+  <swiper-item><image src="https://pic2.imgdb.cn/item/6457a12d0d2dde57777d94c4.jpg"></image></swiper-item>
+  <swiper-item><image src="https://pic2.imgdb.cn/item/6457a1580d2dde57777dbeb9.jpg"></image></swiper-item>
+  <swiper-item><image src="https://pic2.imgdb.cn/item/6457a1800d2dde57777df8f8.jpg"></image></swiper-item>
+  <swiper-item><image src="https://pic2.imgdb.cn/item/6457a19d0d2dde57777e1555.jpg"></image></swiper-item>
+</swiper>
+<view>
+ <view style="margin-top: 10px; margin-left: 20px; font-size: 15px;font-weight: 800;">精品推荐</view>
+ <view class="box-1">
+      <view class="box-1-1">
+          <navigator><image  mode="widthFix" src="https://pic2.imgdb.cn/item/6458f8f40d2dde5777f975a7.png"></image></navigator>
+          <navigator><image mode="widthFix" src="https://pic2.imgdb.cn/item/6458f90f0d2dde5777f99025.png"></image></navigator>
+          <navigator><image mode="widthFix" src="https://pic2.imgdb.cn/item/6458f9220d2dde5777f9a30b.png"></image></navigator>
+      </view>
+ </view>
+ <view>
+   <view style="margin-top: 20px; margin-left: 20px; font-size: 15px;font-weight: 800;margin-bottom: 20px;">门店配置</view>
+   <view class="box-2">
+    <navigator><image style="width: 200rpx;"  mode="widthFix" src="https://pic2.imgdb.cn/item/6458fd5a0d2dde577700a378.png"></image></navigator>
+    <navigator><image style="width: 200rpx;" mode="widthFix" src="https://pic2.imgdb.cn/item/6458fd800d2dde577700c9ee.png"></image></navigator>
+   </view>
+ </view>
+ 
+</view>  

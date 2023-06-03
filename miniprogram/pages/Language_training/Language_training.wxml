@@ -1,0 +1,52 @@
+<view>
+  <view>
+    <image class="lessword" src="https://pic2.imgdb.cn/item/6457a6250d2dde5777823f1b.png" mode=""/>
+  </view>
+  <view class="hen sf">
+    <view class="flex1">
+      <navigator url="/pages/Breathing_training/Breathing_training">
+      <view class="shu flex1">
+        <image class="lessimage" mode="widthFix" src="https://pic2.imgdb.cn/item/6457add20d2dde57778cba37.png" mode=""/>
+        <text style="margin-left: 10rpx;">呼吸训练</text>  
+      </view>
+      </navigator>
+    </view>
+    <view class="flex2">
+      <navigator url="/pages/Oral_muscle_training/Oral_muscle_training">
+        <view class="shu flex2">
+            <image class="lessimage" src="https://pic2.imgdb.cn/item/6457adfa0d2dde57778ce1ad.png" mode=""/>
+            <text style="margin-left: 10rpx;">口肌训练</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view>
+      <image class="lessword" src="https://pic2.imgdb.cn/item/6457a8120d2dde5777845011.png" mode=""/>
+  </view>
+  <view class="shu">
+    <view class="hen sf">
+      <view class="flex1 shu">
+        <image class="lessimage" src="https://pic2.imgdb.cn/item/6457ae320d2dde57778d2608.png" mode=""/>
+        <text style="margin-left: 10rpx;">韵母训练</text>
+      </view>
+      <view class="flex1 shu">
+        <image class="lessimage" src="https://pic2.imgdb.cn/item/6457ae6e0d2dde57778d667a.png" mode=""/>
+        <text style="margin-left: 10rpx;">声母训练</text>
+      </view>
+      <view class="flex1 shu">
+          <image class="lessimage" src="https://pic2.imgdb.cn/item/6457ae7e0d2dde57778d77b0.png" mode=""/>
+          <text style="margin-left: 10rpx;">声调训练</text>
+      </view>
+    </view>
+      <view class="hen sa">
+        <view class="flex1 shu">
+          <image class="lessimage" src="https://pic2.imgdb.cn/item/6457ae920d2dde57778d8e10.png" mode=""/>
+          <text style="margin-left: 10rpx;">词语训练</text>
+        </view>
+        <view class="flex2 shu">
+            <image class="lessimage" src="https://pic2.imgdb.cn/item/6457ae9d0d2dde57778d97b8.png" mode=""/>
+            <text style="margin-left: 10rpx;">短句训练</text>
+        </view>
+      </view> 
+  </view>
+</view>

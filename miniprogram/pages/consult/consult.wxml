@@ -1,0 +1,12 @@
+<!--pages/consult/consult.wxml-->
+<!-- <text>pages/consult/consult.wxml</text> -->
+<view id="box-1">
+   <image mode="widthFix" src="https://pic2.imgdb.cn/item/644b85ee0d2dde57771b829f.png"></image>
+</view>
+<view id="box-2">
+  <button type="primary" open-type="contact">平台客服</button>
+</view>
+<view id="box-3">
+    <button type="primary">专家咨询</button>
+</view>
+

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "SearchInput":"../../components/Searchinput2/Searchinput2"
+  },
+  "navigationBarTitleText": "矫治伴侣",
+  "navigationBarBackgroundColor": "#32cd32",
+  "backgroundTextStyle": "dark"
+}

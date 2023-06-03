@@ -1,0 +1,39 @@
+/* pages/game_overcome/game_overcome.wxss */
+.flex1{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(233, 255, 224);
+}
+.flex1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20rpx;
+}
+.flex1-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.flex1-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.flex1-4{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.flex1-1-1{ 
+  display: flex;
+  height: 450rpx;
+  width: 650rpx;
+}
+.pic{ 
+  display: flex;
+  flex-direction: row;
+  height: 300rpx;
+  width: 300rpx;
+}

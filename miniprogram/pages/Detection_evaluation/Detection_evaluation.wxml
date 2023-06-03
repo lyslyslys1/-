@@ -1,0 +1,16 @@
+<!--pages/Detection_evaluation/Detection_evaluation.wxml-->
+<view class="all">
+  <view >
+    <image mode="widthFix"  class="pic1" src="https://pic2.imgdb.cn/item/644b8a530d2dde577721e61d.png" mode=""/>
+  </view>
+  <view>
+    <navigator url="/pages/Online_testing/Online testing">
+    <image  class="pic2" mode="widthFix"src="https://pic2.imgdb.cn/item/644b8a530d2dde577721e5c7.png" mode=""/>
+    </navigator>
+  </view>
+  <view >
+    <image  class="pic3" mode="widthFix" src="https://pic2.imgdb.cn/item/644b8a530d2dde577721e5b6.png" mode=""/>
+  </view>
+</view>
+
+

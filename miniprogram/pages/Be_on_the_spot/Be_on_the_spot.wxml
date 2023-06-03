@@ -1,0 +1,83 @@
+<view>
+  <view class="mg">
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645f152a0d2dde577735da50.png" mode=""/>
+  </view>
+  <view class="hen"  style="margin:10rpx 20rpx;">
+    <view class="shu mg wth flex1">
+      <image class="letimage" src="https://pic2.imgdb.cn/item/645f15f60d2dde5777374a34.png" mode=""/>
+      <text class="wth tx">诗词朗诵</text>
+    </view> 
+    <view class="shu mg wth flex1">
+      <image class="letimage" src="https://pic2.imgdb.cn/item/645f16090d2dde57773766b9.png" mode=""/>
+      <text class="wth tx">故事大全</text>
+    </view>
+    <view class="flex1">
+      
+    </view>
+  </view>
+  
+  <view>
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645f15560d2dde5777364061.png" mode=""/>
+  </view>
+  <view class="shu" style="margin:10rpx 20rpx;">
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f16440d2dde577737be8b.png" mode=""/>
+        <text class="wth tx">摇篮曲</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f16510d2dde577737d168.png" mode=""/>
+        <text class="wth tx">数数歌</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f165d0d2dde577737e3a7.png" mode=""/>
+        <text class="wth tx">猜谜语</text>
+      </view>
+    </view>
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f168d0d2dde5777381d91.png" mode=""/>
+        <text class="wth tx">问答歌</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f16f10d2dde5777388a73.png" mode=""/>
+        <text class="wth tx">游戏歌</text>
+      </view>
+      <view class="shu mg wth flex1">
+      </view>
+    </view>
+  </view>
+  <view>
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645f15840d2dde577736a7a0.png" mode=""/>
+  </view>
+  <view class="shu" style="margin:10rpx 20rpx;">
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f17060d2dde577738a2f8.png" mode=""/>
+        <text class="wth tx">餐馆</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f171d0d2dde577738c79f.png" mode=""/>
+        <text class="wth tx">森林</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f17350d2dde577738e754.pngg" mode=""/>
+        <text class="wth tx">街道</text>
+      </view>
+    </view>
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f17370d2dde577738eb97.png" mode=""/>
+        <text class="wth tx">餐馆</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f173c0d2dde577738efbf.png" mode=""/>
+        <text class="wth tx">车厢</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f173d0d2dde577738f349.png" mode=""/>
+        <text class="wth tx">学校</text>
+      </view>
+    </view>
+  </view>
+</view>

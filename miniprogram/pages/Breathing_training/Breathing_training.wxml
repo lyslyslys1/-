@@ -1,0 +1,10 @@
+<view class="hen wth mg">
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645a145d0d2dde57772a0058.png" mode=""/>
+      <text class="wth tx">气流强度控制</text>
+    </view>
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645a14440d2dde577729c9a4.png" mode=""/>
+      <text class="wth tx">气流长度控制</text>
+    </view>
+  </view>

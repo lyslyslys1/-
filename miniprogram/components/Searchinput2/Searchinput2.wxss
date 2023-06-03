@@ -1,0 +1,39 @@
+/* components/Searchinput2/Searchinput2.wxss */
+/* .search_input2 {
+  color: #666;
+  font-size: 20px;
+  height: 130rpx;
+  padding: 23rpx;
+  padding-right: 30px;
+  padding-left: 10px;
+  background-color: #32cd32;
+}
+.search_input2 navigator {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15rpx ;
+}
+.search_input2 navigator image{
+width: 10px;
+height: 10px;  
+} */
+.search_input1{
+  background-color:rgb(234, 254, 227);
+  height: 130rpx;
+  padding: 23rpx;
+  padding-right: 30px;
+ 
+
+}
+.search_input2{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15rpx ;
+}
+.search_input2 navigator image{
+  width: 40px;
+  } 

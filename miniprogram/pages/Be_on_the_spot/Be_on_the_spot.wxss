@@ -1,0 +1,38 @@
+.hen{
+  display: flex;
+  flex-direction: row;
+}
+.shu{
+  display: flex; 
+  flex-direction: column;
+}
+.lessimage{
+  height: 70rpx;
+  width: 240rpx;
+}
+
+.wth{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.mg{
+  margin-top: 20rpx;
+}
+.tx{
+  font-weight: 700;
+  font-size:small;
+}
+.flex1{
+  display: flex;
+  flex:1;
+}
+.flex2{
+  display: flex;
+  flex:2;
+}
+.letimage{
+  height: 120rpx;
+  width: 120rpx;
+}

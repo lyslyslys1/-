@@ -1,0 +1,13 @@
+/* pages/consult/consult.wxss */
+#box-1 image{
+  width: 100%;
+  
+
+}
+#box-2 button{
+   width: 90%;
+   margin-bottom: 10px;
+}
+#box-3 button{
+  width: 90%;
+}

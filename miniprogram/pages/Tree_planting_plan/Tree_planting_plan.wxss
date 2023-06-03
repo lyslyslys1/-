@@ -1,0 +1,61 @@
+/* pages/Tree_planting_plan/Tree_planting_plan.wxss */
+.all{
+  display: flex;
+  flex-direction: column;
+background-color: rgb(246, 253, 245);
+}
+.start1{
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+}
+.zhongshu{
+  margin-top: 20rpx;
+  height: 120rpx;
+  width: 400rpx;
+}
+.treeall{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.tree{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.trees1{
+  height: 300rpx;
+  width: 240rpx;
+}
+.trees2{
+  height: 300rpx;
+  width: 240rpx;
+}
+.trees3{
+  height: 300rpx;
+  width: 240rpx;
+  margin-top: 60rpx;
+}
+.trees4{
+  height: 300rpx;
+  width: 240rpx;
+  margin-top: 100rpx;
+}
+.arrow1{
+  height: 60rpx;
+  width: 60rpx;
+  margin-top: 40rpx;
+}
+.arrow2{
+  height: 60rpx;
+  width: 60rpx;
+}
+.arrow3{
+  height: 60rpx;
+  width: 60rpx;
+}
+.lessimage{
+  height: 200rpx;
+  width: 200rpx;
+}

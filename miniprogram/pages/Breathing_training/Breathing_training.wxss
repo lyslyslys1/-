@@ -1,0 +1,25 @@
+/* pages/Breathing_training/Breathing_training.wxss */
+.hen{
+  display: flex;
+  flex-direction: row;
+}
+.shu{
+  display: flex; 
+  flex-direction: column;
+}
+.lessimage{
+  height: 270rpx;
+  width: 230rpx;
+}
+.wth{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.mg{
+  margin-top: 10rpx;
+}
+.tx{
+  font-weight: 700;
+  font-size: large;
+}

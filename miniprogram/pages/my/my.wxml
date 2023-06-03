@@ -1,0 +1,64 @@
+<view class="container">
+  <view class="userinfo">
+    <block wx:if="{{canIUseOpenData}}">
+      <view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <open-data type="userNickName"></open-data>
+    </block>
+    <block wx:elif="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+<view class="user_content">
+  <view class="user_main">
+    <view class="my_wrap">
+    <view class="icon_image">
+    <image src="../../icon/leijixuexishichang.png"></image></view>
+      <view class="index_text">累计已学0天</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/gerenxinxi.png"></image></view>
+      <view class="index_text">个人信息</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/xuexijihua-.png"></image></view>
+      <view class="index_text">学习规划</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/daka.png"></image></view>
+      <view class="index_text">每日打卡记录</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/tushu1.png"></image></view>
+      <view class="index_text">我的图书</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/biaoqianA01_kecheng-91.png"></image></view>
+      <view class="index_text">我的课程</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/icon-test.png"></image></view>
+      <view class="index_text">联系客服</view>
+    </view>
+    <view class="my_wrap">
+      <view class="icon_image">
+    <image src="../../icon/shezhi.png"></image></view>
+      <view class="index_text">设置与帮助</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+/* pages/phonologicalknowledge/phonologicalknowledge.wxss */
+#box-1{
+  display: flex;
+  justify-content:space-between;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+  font-weight: 20rpx;
+  font-size: 20rpx;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+
+}
+#box-2{
+
+}
+#box-2-1{
+  margin-bottom: 10rpx;
+}
+#box-2-2{
+  display: flex;
+  justify-content:space-around;
+}
+#box-2-2 navigator image{
+   width: 150rpx;
+   height: 150rpx;
+}
+#box-2-3-1{
+  display:flex;
+  justify-content: space-around;
+}
+#box-2-3-2{
+  display:flex;
+  justify-content: space-around;
+}
+#box-3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+#box-3 image{
+  width: 150rpx;
+  height: 100rpx;
+}
+#box-4-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+#box-4-1 image{
+ width: 150rpx;
+ height: 150rpx;
+}
+#box-4-2{
+  display: flex;
+  justify-content: space-around;
+}
+#box-5-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+#box-5-1 image{
+ width: 150rpx;
+ height: 150rpx;
+}
+#box-5-2{
+  display: flex;
+  justify-content: space-around;
+
+}

@@ -1,0 +1,30 @@
+<view>
+  <view class="hen wth mg">
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645b4e1b0d2dde577763f51c.png" mode=""/>
+      <text class="wth tx">舌部运动</text>
+    </view>
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645b4e450d2dde5777641bef.png" mode=""/>
+      <text class="wth tx">唇部运动</text>
+    </view>
+  </view>
+  <view class="hen wth mg">
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645b4e560d2dde5777642c3c.png" mode=""/>
+      <text class="wth tx">下颚运动</text>
+    </view>
+    <view class="shu">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645b4e670d2dde5777643ae8.png" mode=""/>
+      <text class="wth tx">软腭运动</text>
+    </view>
+  </view>
+  <view class="hen mg">
+    <view class="shu flex1 wth">
+      <image class="lessimage" src="https://pic2.imgdb.cn/item/645b4e740d2dde57776447e4.png" mode=""/>
+      <text class="wth tx">交替运动</text>
+    </view>
+    <view class="flex1"></view>
+  </view>
+  
+</view>

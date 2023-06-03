@@ -1,0 +1,12 @@
+<!--components/Searchinput2/Searchinput2.wxml-->
+<view class="search_input1">
+    <view class="search_input2">
+    <navigator><image mode="widthFix" src="https://pic2.imgdb.cn/item/6458c11c0d2dde5777bbf8a5.png"></image></navigator>
+      <navigator style="margin-top: 5px; font-size: 20px; color: rgb(153, 167, 167);margin-right: 20px;">
+        压舌板
+      </navigator>
+      <navigator style="margin-top: 5px;"><image mode="widthFix" src="https://pic2.imgdb.cn/item/6458bce90d2dde5777b87074.png"></image></navigator>
+    </view>
+</view>
+
+

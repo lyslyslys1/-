@@ -1,0 +1,74 @@
+<!--pages/phonologicalknowledge/phonologicalknowledge.wxml-->
+<view id="box-1">
+  <view>全部</view>
+  <view>辅音</view>
+  <view>元音</view>
+  <view>动作</view>
+  <view>嗓音</view>
+  <view>流程度</view>
+</view>
+<view id="box-2">
+    <view>
+       <view id="box-2-1">精选课程</view>
+       <view id="box-2-2">
+          <navigator>
+            <image  src="https://pic1.imgdb.cn/item/6444e3580d2dde5777908f06.jpg"></image>
+          </navigator>
+          <navigator>
+            <image  src="https://pic1.imgdb.cn/item/6444e4900d2dde577791a5a4.jpg"></image>
+          </navigator>
+          <navigator>
+            <image  src="https://pic1.imgdb.cn/item/6444e4b60d2dde577791c5f5.jpg"></image>
+          </navigator>
+       </view>
+       <view>
+          <view id="box-2-3-1">
+            <view>声口结合</view>
+            <view>精准发音</view>
+            <view>拼音闯关</view>
+          </view>
+          <view id="box-2-3-2">
+            <view>分龄启蒙</view>
+            <view>音系训练</view>
+            <view>系统发音</view>
+          </view>
+       </view>
+    </view>
+    <view id="box-3">
+        <view>
+        <image src="https://pic2.imgdb.cn/item/6445270d0d2dde5777eb5658.png"></image>
+        </view>
+        <view>
+        <image src="https://pic2.imgdb.cn/item/6445273e0d2dde5777eb9e80.jpg"></image>
+        </view>
+        <view>
+            <navigator url="/pages/correctivepartner/correctivepartner">
+              <image src="https://pic2.imgdb.cn/item/6445274e0d2dde5777ebc5cb.png"></image>
+            </navigator>
+        </view>
+    </view>
+    <view>
+      <view>一起来听</view>
+      <view id="box-4-1">
+          <view><image src="https://pic2.imgdb.cn/item/644626f40d2dde57773faf61.jpg"></image></view>
+          <view><image src="https://pic2.imgdb.cn/item/6446270a0d2dde57773fc94e.jpg"></image></view>
+      </view>
+      <view id="box-4-2">
+         <view>听发音</view>
+         <view>听绕口令</view>
+      </view>
+    </view>
+    <view>
+      <view>一起来读</view>
+      <view id="box-5-1">
+          <view><image src="https://pic2.imgdb.cn/item/644633ca0d2dde5777524dd2.jpg"></image></view>
+          <view><image src="https://pic2.imgdb.cn/item/644633de0d2dde57775263ab.jpg"></image></view>
+      </view>
+      <view id="box-5-2">
+         <view>读绘本</view>
+         <view>读儿歌</view>
+      </view>
+    </view>
+    
+    
+</view>

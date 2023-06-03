@@ -1,0 +1,24 @@
+/* pages/Online_testing/Online testing.wxss */
+page{
+  background-color:rgb(216, 253, 210);
+}
+.w{
+  width: 100%;
+}
+.pic1{
+  height: 160rpx;
+  margin-top: 40rpx;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 66rpx;
+}
+.lesspic{
+  height: 250rpx;
+  width: 330rpx;
+}
+.jc{
+  display: flex;
+  justify-content: space-evenly;
+}

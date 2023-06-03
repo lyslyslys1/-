@@ -1,0 +1,35 @@
+/* pages/correctivepartner/correctivepartner.wxss */
+page{
+  background-color: rgb(234, 254, 227);
+}
+swiper{
+  width: 600rpx;
+  height: calc(100vw*862/3000);
+  margin-left: 10%;
+  margin-top: 13rpx;
+}
+swiper image{
+  width: 100%;
+}
+.box-1{
+  background-color:rgb(234, 234, 236) ;
+  padding: 6rpx;
+  margin-top: 10rpx;
+  margin-right: 60rpx;
+  margin-left: 30rpx;
+  border-radius: 15rrpx;
+
+}
+.box-1-1{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255,255 );
+}
+.box-1-1 navigator image{
+  width: 70rpx;
+}
+.box-2{
+  display: flex;
+  justify-content: space-around;
+}
+

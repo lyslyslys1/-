@@ -1,0 +1,32 @@
+<!--pages/game_overcome/game_overcome.wxml-->
+<view class="flex1">
+  <view class="flex1-1">
+      <navigator url="/pages/Tree_planting_plan/Tree_planting_plan">
+        <image class="flex1-1-1" src="https://pic2.imgdb.cn/item/6444f73a0d2dde5777b00e6d.png"  mode=""/>
+      </navigator>
+  </view>
+  <view class="flex1-2">
+    <view> 
+      <image class="pic" src="https://pic2.imgdb.cn/item/6444f7710d2dde5777b04f9d.png" mode=""/>
+    </view>
+    <view>
+        <image class="pic" src="https://pic2.imgdb.cn/item/6444f7840d2dde5777b064b7.png" mode=""/>
+    </view>
+  </view>
+  <view class="flex1-3">
+    <view>
+            <image class="pic" src="https://pic2.imgdb.cn/item/6444f7b40d2dde5777b0a148.png" mode=""/>
+    </view>
+    <view>
+        <image class="pic" src="https://pic2.imgdb.cn/item/6444f7ca0d2dde5777b0bda9.png" mode=""/>
+    </view>
+  </view>
+  <view class="flex1-4">
+    <view>
+      <image class="pic" src="https://pic2.imgdb.cn/item/6444f7e90d2dde5777b0e568.png" mode=""/>
+    </view>
+    <view>
+        <image class="pic" src="https://pic2.imgdb.cn/item/6444f7fd0d2dde5777b0fcbb.png" mode=""/>
+    </view>
+  </view>
+</view>

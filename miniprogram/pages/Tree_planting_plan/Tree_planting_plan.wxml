@@ -1,0 +1,36 @@
+<!--pages/Tree_planting_plan/Tree_planting_plan.wxml-->
+<view class="all">
+  <view class="start1">
+    <image class="zhongshu" src="https://pic2.imgdb.cn/item/6444ff770d2dde5777bea241.png" mode=""/>
+  </view>
+  <view class="treeall">
+  <view class="tree">
+    <image class="trees1" src="https://pic2.imgdb.cn/item/644528cc0d2dde5777ee13a1.png" mode=""/>
+    <image  class="trees2" src="https://pic2.imgdb.cn/item/644529190d2dde5777ee5a20.png" mode=""/>
+  </view>
+  <view class="tree">
+    <image  class="arrow1" src="https://pic2.imgdb.cn/item/644b88eb0d2dde5777206a2b.png" mode=""/>
+    <image  class="arrow2" src="https://pic2.imgdb.cn/item/644b88eb0d2dde5777206a1e.png" mode=""/>
+    <image  class="arrow3" src="https://pic2.imgdb.cn/item/644b88eb0d2dde5777206a2b.png" mode=""/>
+  </view>
+  <view class="tree">
+    <image class="trees3" src="https://pic2.imgdb.cn/item/644528ed0d2dde5777ee3099.png" mode=""/>
+    <image class="trees4" src="https://pic2.imgdb.cn/item/644529220d2dde5777ee61d2.png" mode=""/>
+  </view>
+  </view>
+  <view style="display: flex;flex-direction: row;justify-content: space-evenly;">
+    <view>
+      <image style="height: 400rpx; width: 240rpx;" src="https://pic2.imgdb.cn/item/644b89980d2dde5777211ee1.png" mode=""/>
+    </view>
+    <view style="display: flex;flex-direction: column;justify-content: space-evenly;">
+      <view style="display: flex;flex-direction: row;justify-content: space-evenly;">
+        <image class = "lessimage" src="https://pic2.imgdb.cn/item/644b89bf0d2dde577721484e.png" mode=""/>
+        <image class = "lessimage" style="margin-top: 6rpx;" src="https://pic2.imgdb.cn/item/644b89c30d2dde5777214bfd.png" mode=""/>
+      </view>
+      <view style="display: flex;flex-direction: row;justify-content: space-evenly;">
+      <image class = "lessimage" src="https://pic2.imgdb.cn/item/644b89c10d2dde5777214a5a.png" mode=""/>
+        <image class = "lessimage"  style="margin-top: 6rpx;" src="https://pic2.imgdb.cn/item/644b89c40d2dde5777214d86.png" mode=""/>
+      </view>
+    </view>
+  </view>
+</view>

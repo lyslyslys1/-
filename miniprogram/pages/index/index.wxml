@@ -1,23 +1,63 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
-      </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!--pages/index/index.wxml-->
+<view class="index_swiper">
+<SearchInput>
+</SearchInput>
+<swiper autoplay circular indicator-dots>
+<swiper-item><image mode="widthFix" src="https://pic1.imgdb.cn/item/6443d7230d2dde57775e22ee.jpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://pic2.imgdb.cn/item/64474c440d2dde577774b700.jpg"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://pic2.imgdb.cn/item/64474c960d2dde5777750169.jpg"></image></swiper-item>
+</swiper>
+<view class="index_cate">
+<navigator url="/pages/phonologicalknowledge/phonologicalknowledge">
+<image mode="widthFix" src="https://pic1.imgdb.cn/item/64423c040d2dde57774720ae.png"></image>
+</navigator>
+<navigator url="/pages/Detection_evaluation/Detection_evaluation">
+<image mode="widthFix" src="https://pic1.imgdb.cn/item/64423c090d2dde577747296e.png"></image>
+</navigator>
+<navigator url="/pages/game_overcome/game_overcome">
+<image mode="widthFix" src="https://pic1.imgdb.cn/item/64423c0c0d2dde57774731c7.png"></image>
+</navigator>
+<navigator>
+<image mode="widthFix" src="https://pic1.imgdb.cn/item/64423c0f0d2dde57774739c9.png"></image>
+</navigator>
+</view>
+<!-- <view>
+<rich-text nodes="{{html}}"></rich-text>
+</view> -->
+<view class="index_cate">
+<image mode="widthFix" src="https://pic1.imgdb.cn/item/6443d84b0d2dde57775f77c4.png"></image>
+</view>
+<view style="font-size: 47rpx; padding-top: 20rpx;padding-left: 20rpx;padding-bottom: 20rpx;">
+每日推荐
+</view>
+<view>
+  <navigator url="/pages/weixin_link/weixin_link">
+  <view class='containerView ' style="padding-left: 20rpx;">
+    <view class='containerText'>
+    <view class='title'>儿童发音|孩子口齿不清不一定是病，但得治</view>
+    <view class='content'>你在生活中，是否经常遇见以下几种发音现</view>
+    </view>
+    <image class='image' src='https://pic2.imgdb.cn/item/6452582e0d2dde5777765b97.jpg' mode='widthFix'></image>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view class='solidView'><view class='b'></view></view>
+  </navigator>
+  <navigator url="/pages/weixin_link1/weixin_link1">
+    <view class='containerView ' style="padding-left: 20rpx; padding-top: 10rpx;">
+    <view class='containerText'>
+    <view class='title'>语言障碍：幼儿语言障碍康复训练方法</view>
+    <view class='content'>言语与语言发育障碍指在发育早期就有正常</view>
+    </view>
+    <image class='image' src='https://pic2.imgdb.cn/item/6452582c0d2dde5777765989.jpg' mode='widthFix'></image>
   </view>
+    <view class='solidView'><view class='b'></view></view> 
+    </navigator>
+    <view class='containerView ' style="padding-left: 20rpx; padding-top: 10rpx;">
+    <view class='containerText'>
+    <view class='title'>儿童康复训练|趣多多小分队带你一起学声母——ls</view>
+    <view class='content'>对于孩子不良的说话习惯，不要因为觉得可</view>
+    </view>
+    <image class='image' src='https://pic2.imgdb.cn/item/645258280d2dde57777656a6.jpg' mode='widthFix'></image>
+  </view>
+    <view class='solidView'><view class='b'></view></view>
+</view>
 </view>

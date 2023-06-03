@@ -1,0 +1,60 @@
+page{
+  background-color: #eaeaea;
+  color: #666;
+}
+/**index.wxss**/
+.container{
+  margin-top: 20rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 137rpx;
+  height: 137rpx;
+  margin: 20rpx;
+}
+
+
+.user_content{
+  position: relative;
+}
+.user_main{
+  position: absolute;
+  width: 95%;
+  left: 50%;
+  top:20rpx;
+  transform: translateX(-50%);
+  padding-bottom: 40rpx;
+}
+.my_wrap
+{
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: flex;
+}
+.user_content
+.user_main
+.my_wrap
+.icon_image
+image{
+width: 70rpx;
+height: 70rpx;
+margin: 0;
+}
+.icon_image{
+  padding: 20rpx;
+}
+.index_text{
+padding-left: 10rpx;
+}
+
+

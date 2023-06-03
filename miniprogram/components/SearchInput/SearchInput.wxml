@@ -1,0 +1,6 @@
+<view class="search_input">
+<navigator url="/pages/search/search" open-type="navigate">
+<icon type="search" size="20"/>
+  如何进行ch的正常发音？
+</navigator>
+</view>

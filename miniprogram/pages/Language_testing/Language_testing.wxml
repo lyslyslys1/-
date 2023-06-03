@@ -1,0 +1,78 @@
+<!--pages/Language_testing/Language_testing.wxml-->
+<view>
+  <view class="mg">
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645b65f40d2dde57777f936a.png" mode=""/>
+  </view>
+  <view class="hen"  style="margin:10rpx 20rpx;">
+    <view class="shu mg wth flex1">
+      <image class="letimage" src="https://pic2.imgdb.cn/item/645b66a80d2dde5777810d09.png" mode=""/>
+      <text class="wth tx">最长声时测试</text>
+    </view> 
+    <view class="flex2">
+
+    </view>
+  </view>
+  
+  <view>
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645b683e0d2dde5777831f09.png" mode=""/>
+  </view>
+  <view class="shu" style="margin:10rpx 20rpx;">
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f0fba0d2dde57772c5378.png" mode=""/>
+        <text class="wth tx">韵母测试</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f0ff70d2dde57772cba93.png" mode=""/>
+        <text class="wth tx">声母测试</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f10090d2dde57772cd5c7.png" mode=""/>
+        <text class="wth tx">声调测试</text>
+      </view>
+    </view>
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f102f0d2dde57772d10b7.png" mode=""/>
+        <text class="wth tx">字词测试</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f103f0d2dde57772d2b48.png" mode=""/>
+        <text class="wth tx">短句测试</text>
+      </view>
+      <view class="shu mg wth flex1">
+      </view>
+    </view>
+  </view>
+  <view>
+    <image class="lessimage" src="https://pic2.imgdb.cn/item/645b68390d2dde5777831a7c.png" mode=""/>
+  </view>
+  <view class="shu" style="margin:10rpx 20rpx;">
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f10d50d2dde57772e1614.png" mode=""/>
+        <text class="wth tx">构音一阶</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f10e60d2dde57772e41a8.png" mode=""/>
+        <text class="wth tx">构音二阶</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f110a0d2dde57772e6bfb.png" mode=""/>
+        <text class="wth tx">构音三阶</text>
+      </view>
+    </view>
+    <view class="hen wth">
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f11190d2dde57772e82d7.png" mode=""/>
+        <text class="wth tx">构音四阶</text>
+      </view>
+      <view class="shu mg wth flex1">
+        <image class="letimage" src="https://pic2.imgdb.cn/item/645f11280d2dde57772e9b08.png" mode=""/>
+        <text class="wth tx">构音五阶</text>
+      </view>
+      <view class="shu mg wth flex1">
+      </view>
+    </view>
+  </view>
+</view>
